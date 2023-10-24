@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+    
+nav{
+    background-color: black;
+    padding:10px 10px;
+
+
+}
+.title{
+    color: #6f8da7;
+    display:inline-block;
+    margin-left:10px;
+    position: relative;
+    top:-25px;
+    font-family: 'Merriweather';
+    font-size: 25px;
+    font-variant:small-caps
+}
+
+.link a{
+    text-decoration: none;
+    color: #5ac6c2;
+    font-weight: 500;
+    margin:0 15px;
+    font-size: 15px;
+    
+
+}
+ 
+    
+.link{
+    float:right;
+    top: 27px;
+    position:relative;
+    margin-right:20px;
+    
+    
+}
+
+.logo{
+    display: inline-block;
+    
+}
+
+.click-link{
+    background-color:white;
+    border-radius: 8px;
+    font-family:"Geneva";
+    padding: 7px 7px;
+    
+}
+.click-link:hover{
+    padding: 10px 15px;
+    color:rgb(35, 85, 129);
+    transition:0.5s;
+    font-weight:bold;
+}
+.links:hover{
+    color: rgb(178, 194, 208);
+    padding:8px 8px;
+    font-weight: bold;
+    transition:0.5s;
+
+}
+
+span{
+    color: rgb(165, 42, 42);
+}
+
+body{
+    background-image: url("photos/sample.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    background-position: 50% 50%;
+    
+}
+.content{
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right:180px;
+    margin-bottom: 160px;
+    color: aliceblue;
+    padding:20px;
+    font-size:28px;
+    
+}
+
+footer{
+    background-color: aqua;
+    padding:50px;
+   
+
+}
+.last{
+    
+    text-align: center;
+    
+}
+.last a{
+    text-decoration: none;
+    margin:25px;
+    font-style: "Geneva";
+    color:black;
+    font-size:18px;
+    padding-left: 40px;
+    
+}
